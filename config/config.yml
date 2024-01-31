@@ -1,0 +1,52 @@
+# GoCFX config file
+
+logging:
+  directory: log
+  filename: accuStarlet.log
+  maxSize: 20 # in megabytes
+  maxAge: 1 # log age for switch
+  maxBackups: 30
+  level: debug # debug, info, error
+
+fsController:
+  counterFilename: counter.bin
+  sourceDirectories:
+    fx:
+      - test/source/fx1
+      - test/source/fx2
+    tbd:
+      - test/source/tbd1
+    gpp:
+      - test/source/gpp1
+    uti:
+      - test/source/uti
+    th:
+      - test/source/th
+    mup:
+      - test/source/mup
+    abg:
+      - test/source/abg
+    opRpp:
+      - test/source/opRpp
+    rpp:
+      - test/source/rpp
+    av:
+      - test/source/av
+    bvag:
+      - test/source/bvag
+    candida:
+      - test/source/candida
+    utiw:
+      - test/source/utiw
+    sma:
+      - test/source/sma
+    delta:
+      - test/source/delta
+    covid:
+      - test/source/covid
+  exportDirectories:
+    - test/out1
+    - test/out2
+  archiveDirectories:
+    - test/arch1
+    - test/arch2
