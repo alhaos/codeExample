@@ -1,3 +1,3 @@
 # Code example
 
-code example from review
+code example for review
