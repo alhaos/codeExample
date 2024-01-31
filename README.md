@@ -1,3 +1,3 @@
-# GoCFX.2
+# Code example
 
-tmp repo for refactored GoCFX project
+code example from review
